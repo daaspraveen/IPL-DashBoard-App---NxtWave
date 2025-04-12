@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.logo-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  width: 40px;
+}
+.main-heading {
+  font-size: 48px;
+  color: #fff;
+}
+.teamcard-ul-box {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .main-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-repeat: no-repeat;
+  }
+  .main-heading {
+    font-size: 36px;
+  }
+}
+
+.Background-Colors {
+  background-color: #1e293b #a4261d #5755a7 #d91c1f #f7db00 #ffffff33 #da237b
+    #13418b #f26d22 #4f5db0 #0f172a;
+}
+
+.BorderColors {
+  border-color: #ffffff #475569;
+}
+.Colors {
+  color: #ffffff #18ed66 #e31a1a;
+}

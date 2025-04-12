@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.NotFound-container {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.notFound-img {
+  max-width: 500px;
+}
+.notFound-para {
+  font-size: 32px;
+  font-family: Bree Serif;
+  font-weight: 500;
+  color: #475569;
+}

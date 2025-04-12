@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.latest-matches-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: #0f172a;
+  color: #fff;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.latest-match-card-box1 {
+  width: 30%;
+}
+.competing-team-name {
+  font-size: 28px;
+  font-weight: 400;
+}
+.latest-match-date {
+  font-size: 20px;
+}
+.latest-match-venue,
+small-para {
+  font-size: 16px;
+}
+.x-small-para {
+  font-size: 14px;
+  font-weight: 400;
+}
+.latest-match-card-img {
+  width: 100%;
+  max-width: 30%;
+}
+.latest-hr-line {
+  display: none;
+}
+.latest-match-card-box2 {
+  width: 30%;
+  text-align: right;
+}
+.Background-Colors {
+  background-color: #1e293b #a4261d #5755a7 #d91c1f #f7db00 #ffffff33 #da237b
+    #13418b #f26d22 #4f5db0 #0f172a;
+}
+
+.BorderColors {
+  border-color: #ffffff #475569;
+}
+.Colors {
+  color: #ffffff #18ed66 #e31a1a;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-matches-card {
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0px;
+    border-radius: 15px;
+  }
+  .latest-match-card-box1 {
+    width: 60%;
+    padding: 10px 20px;
+  }
+  .latest-match-card-img {
+    max-width: 25%;
+    margin-right: 15px;
+  }
+  .latest-hr-line {
+    display: block;
+    width: 100%;
+    border: 1px solid #475569;
+  }
+  .latest-match-card-box2 {
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+  }
+}
