@@ -26,6 +26,25 @@
   align-items: center;
   gap: 10px;
   margin-top: 30px;
+  position: relative;
+}
+.teamMatch-main-card button:first-of-type {
+  background-color: #00000070;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: -35px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #000;
+    box-shadow: 0 0 2px white;
+  }
 }
 .team-banner-img {
   width: 100%;
@@ -62,4 +81,20 @@
 }
 .Colors {
   color: #ffffff #18ed66 #e31a1a;
+}
+
+.pie-container {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  place-items: center;
+}
+.pie-container h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  text-shadow: 0 0 20px #ffffff;
+  text-align: left;
+  margin: 0;
 }
