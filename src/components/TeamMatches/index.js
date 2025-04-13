@@ -67,6 +67,7 @@ class TeamMatches extends Component {
     // const renderCustomLabel = ({name, value}) => `${name}: ${value}`
     return (
       <div className="pie-container" data-testid="team-pie-chart">
+        <h3>Statistics</h3>
         <PieChart width={600} height={300}>
           <Pie
             data={totalMatchPlayInfo}
